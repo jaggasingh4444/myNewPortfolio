@@ -2187,6 +2187,27 @@ section,
   flex-grow: 1;
 }
 
+.portfolio .portfolio-links {
+  margin-top: 18px;
+}
+
+.portfolio .portfolio-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--accent-color);
+  font-family: var(--heading-font);
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.portfolio .portfolio-link:hover {
+  color: color-mix(in srgb, var(--accent-color), black 12%);
+  transform: translateX(3px);
+}
+
 .portfolio .isotope-container .portfolio-item:nth-child(1) .portfolio-image img,
 .portfolio .isotope-container .portfolio-item:nth-child(2) .portfolio-image img {
   height: 350px;
