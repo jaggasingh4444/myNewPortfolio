@@ -3999,3 +3999,12 @@ section,
 ::-webkit-scrollbar-thumb:hover {
   background: #777777;
 }
+
+/* Keep photos in their original color inside the monochrome theme. */
+.header .profile-img img,
+.about .profile-section .profile-image-container img,
+.about .profile-section .profile-image-container img:hover,
+.hero .hero-image .image-wrapper .main-image,
+.portfolio .portfolio-image img {
+  filter: none;
+}
