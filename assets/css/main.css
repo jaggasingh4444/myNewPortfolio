@@ -2793,6 +2793,10 @@ section,
   font-family: inherit;
 }
 
+.contact .info-item .info-icon i {
+  color: #171717;
+}
+
 .contact .form-wrapper .form-group input:focus,
 .contact .form-wrapper .form-group select:focus,
 .contact .form-wrapper .form-group textarea:focus {
@@ -3742,4 +3746,256 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+/*--------------------------------------------------------------
+# Monochrome Portfolio Theme
+--------------------------------------------------------------*/
+:root {
+  --background-color: #1f1f1f;
+  --default-color: #d7d7d7;
+  --heading-color: #f7f7f7;
+  --accent-color: #f5f5f5;
+  --surface-color: #2b2b2b;
+  --contrast-color: #171717;
+}
+
+:root {
+  --nav-color: #a8a8a8;
+  --nav-hover-color: #ffffff;
+  --nav-mobile-background-color: #1a1a1a;
+  --nav-dropdown-background-color: #262626;
+  --nav-dropdown-color: #d8d8d8;
+  --nav-dropdown-hover-color: #ffffff;
+}
+
+.light-background {
+  --background-color: #242424;
+  --surface-color: #303030;
+}
+
+.dark-background {
+  --background-color: #191919;
+  --default-color: #d9d9d9;
+  --heading-color: #ffffff;
+  --surface-color: #272727;
+  --contrast-color: #171717;
+}
+
+body {
+  background: #1f1f1f;
+}
+
+.header {
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 18px 0 50px rgba(0, 0, 0, 0.16);
+}
+
+@media (min-width: 1200px) {
+  .header {
+    top: 24px;
+    left: 24px;
+    bottom: 24px;
+    width: 278px;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+  }
+
+  .header~main,
+  .header~#footer {
+    margin-left: 326px;
+  }
+}
+
+.header .profile-img img {
+  border-color: rgba(255, 255, 255, 0.12);
+  filter: grayscale(12%) saturate(0.82);
+}
+
+.header .social-links a,
+.footer .social-links a {
+  background: #303030;
+  color: #f5f5f5;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.header .social-links a:hover,
+.footer .social-links a:hover,
+.header .header-toggle,
+.navmenu .active .toggle-dropdown,
+.navmenu .active:focus .toggle-dropdown,
+.navmenu a .toggle-dropdown:hover,
+.navmenu a:focus .toggle-dropdown:hover {
+  background: #f5f5f5;
+  color: #171717;
+}
+
+.navmenu a,
+.navmenu a:focus {
+  color: #a6a6a6;
+}
+
+.navmenu a:hover,
+.navmenu .active,
+.navmenu .active:focus,
+.navmenu a:hover .navicon,
+.navmenu .active .navicon,
+.navmenu .active:focus .navicon {
+  color: #ffffff;
+}
+
+section,
+.section,
+.footer {
+  background-color: var(--background-color);
+}
+
+.section-title h2::after,
+.hero .hero-content h1 .accent-text::after {
+  background: #d7d7d7;
+}
+
+.hero .hero-content h1,
+.hero .hero-content h1 .accent-text,
+.hero .hero-content .hero-stats .stat-item .stat-number,
+.stats .stat-item .stat-number,
+.skills .skills-sidebar .expertise-highlight .experience-number .purecounter,
+.portfolio .portfolio-meta .portfolio-category,
+.portfolio .portfolio-link,
+.services .read-more,
+.contact .contact-details .detail-item .detail-icon i,
+.contact .info-item .info-icon i {
+  color: #f7f7f7;
+}
+
+.hero .hero-content .hero-actions .btn-primary,
+.contact .form-wrapper .submit-btn {
+  background: #f5f5f5;
+  border-color: #f5f5f5;
+  color: #171717;
+}
+
+.hero .hero-content .hero-actions .btn-primary:hover,
+.contact .form-wrapper .submit-btn:hover {
+  background: #dcdcdc;
+  border-color: #dcdcdc;
+  color: #111111;
+  box-shadow: 0 12px 34px rgba(255, 255, 255, 0.08);
+}
+
+.hero .hero-content .hero-actions .btn-secondary,
+.about .bottom-section .action-buttons .btn-custom.secondary {
+  color: #f5f5f5;
+  border-color: rgba(255, 255, 255, 0.64);
+}
+
+.hero .hero-content .hero-actions .btn-secondary:hover,
+.about .bottom-section .action-buttons .btn-custom.secondary:hover {
+  background: #f5f5f5;
+  color: #171717;
+  border-color: #f5f5f5;
+}
+
+.about .bottom-section .action-buttons .btn-custom.primary {
+  background: #f5f5f5;
+  color: #171717;
+}
+
+.about .bottom-section .action-buttons .btn-custom.primary:hover {
+  background: #dcdcdc;
+  color: #111111;
+}
+
+.hero .hero-image .image-wrapper .main-image,
+.about .profile-section .profile-image-container img,
+.portfolio .portfolio-image img {
+  filter: grayscale(14%) saturate(0.82);
+}
+
+.hero .hero-image .image-wrapper .main-image {
+  border-radius: 24px;
+  box-shadow: 26px 26px 0 rgba(255, 255, 255, 0.08), 0 24px 70px rgba(0, 0, 0, 0.38);
+}
+
+.hero .hero-image .image-wrapper .floating-card,
+.stats .achievement,
+.skills .skills-container .skill-category,
+.skills .skills-sidebar .expertise-highlight,
+.skills .skills-sidebar .technologies-section .tech-stack .tech-item,
+.resume .education-skills .education-grid .education-card,
+.services .service-item,
+.contact .form-wrapper .form-group input,
+.contact .form-wrapper .form-group select,
+.contact .form-wrapper .form-group textarea {
+  background: #2b2b2b;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+}
+
+.skills .skills-container .skill-category .skills-list .skill-row .progress,
+.resume .professional-journey .experience-timeline::before {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.skills .skills-container .skill-category .skills-list .skill-row .progress .progress-bar,
+.resume .professional-journey .experience-timeline .timeline-item .timeline-dot,
+.resume .education-skills .education-grid .education-card.primary::before,
+.portfolio .portfolio-filters li::after,
+.services .service-item:hover .service-icon,
+.contact .info-item .info-icon {
+  background: #f5f5f5;
+}
+
+.resume .professional-journey .experience-timeline .timeline-item .timeline-dot {
+  border-color: #1f1f1f;
+}
+
+.resume .professional-journey .experience-timeline .timeline-item .timeline-content .key-achievements .achievement-tag,
+.resume .education-skills .education-grid .education-card .education-details .honors .honor-badge,
+.resume .education-skills .education-grid .certification-section .certifications .cert-item i,
+.stats .achievement .achievement-icon,
+.services .service-icon,
+.contact .info-item .info-icon {
+  background: rgba(255, 255, 255, 0.1);
+  color: #f5f5f5;
+}
+
+.resume .professional-journey .experience-timeline .timeline-item .timeline-content .key-achievements a.achievement-tag:hover,
+.portfolio .portfolio-link:hover,
+.services .read-more:hover {
+  color: #ffffff;
+}
+
+.portfolio .portfolio-image .action-btn {
+  background: #f5f5f5;
+  color: #171717;
+}
+
+.portfolio .portfolio-image .action-btn:hover {
+  background: #dcdcdc;
+  color: #111111;
+}
+
+.contact .form-wrapper .form-group input:focus,
+.contact .form-wrapper .form-group select:focus,
+.contact .form-wrapper .form-group textarea:focus {
+  border-color: #f5f5f5;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.12);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1c1c1c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555555;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777777;
 }
