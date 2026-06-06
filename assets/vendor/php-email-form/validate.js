@@ -46,8 +46,10 @@
         if (data.success === true || data.success === 'true') {
           loading.classList.remove('d-block');
           sentMessage.classList.add('d-block');
-          alert(sentMessage.textContent.trim());
           form.reset();
+          setTimeout(function() {
+            sentMessage.classList.remove('d-block');
+          }, 4000);
           return;
         }
 
