@@ -4198,30 +4198,30 @@ section,
 # Cream Professional Portfolio Theme
 --------------------------------------------------------------*/
 :root {
-  --background-color: #f8f3ea;
+  --background-color: #f7f7f4;
   --default-color: #4a4540;
   --heading-color: #171717;
   --accent-color: #242424;
-  --surface-color: #fffdfa;
+  --surface-color: #ffffff;
   --contrast-color: #ffffff;
 }
 
 :root {
   --nav-color: #5d5751;
   --nav-hover-color: #171717;
-  --nav-mobile-background-color: #fffdfa;
-  --nav-dropdown-background-color: #fffdfa;
+  --nav-mobile-background-color: #ffffff;
+  --nav-dropdown-background-color: #ffffff;
   --nav-dropdown-color: #5d5751;
   --nav-dropdown-hover-color: #171717;
 }
 
 .light-background {
-  --background-color: #f3ece1;
-  --surface-color: #fffdfa;
+  --background-color: #f1f0ec;
+  --surface-color: #ffffff;
 }
 
 .dark-background {
-  --background-color: #fffdfa;
+  --background-color: #ffffff;
   --default-color: #4a4540;
   --heading-color: #171717;
   --surface-color: #ffffff;
@@ -4239,8 +4239,8 @@ section,
 
 body {
   background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.72), rgba(248, 243, 234, 0.1) 38%),
-    #f8f3ea;
+    linear-gradient(135deg, rgba(255, 255, 255, 0.78), rgba(247, 247, 244, 0.12) 38%),
+    #f7f7f4;
 }
 
 h1,
@@ -4282,7 +4282,7 @@ a:hover {
 }
 
 .header {
-  background: rgba(255, 253, 250, 0.97);
+  background: rgba(255, 255, 255, 0.97);
   border-right: 1px solid rgba(36, 36, 36, 0.08);
   box-shadow: 20px 0 50px rgba(74, 69, 64, 0.08);
   backdrop-filter: blur(18px);
@@ -4302,7 +4302,7 @@ a:hover {
 }
 
 .header .profile-img img {
-  border-color: #efe5d6;
+  border-color: #e5e2dc;
   box-shadow: 0 18px 45px rgba(74, 69, 64, 0.14);
 }
 
@@ -4326,9 +4326,9 @@ a:hover {
 .navmenu a:focus .toggle-dropdown,
 .header .social-links a,
 .footer .social-links a {
-  background: #f2eadf;
+  background: #eeece7;
   color: #37322e;
-  border: 1px solid #e2d7c7;
+  border: 1px solid #ddd9d1;
 }
 
 .header .social-links a:hover,
@@ -4383,7 +4383,7 @@ a:hover {
 .about .bottom-section .action-buttons .btn-custom.secondary {
   color: #242424;
   border-color: #242424;
-  background: rgba(255, 253, 250, 0.66);
+  background: rgba(255, 255, 255, 0.72);
 }
 
 .hero .hero-content .hero-actions .btn-secondary:hover,
@@ -4404,8 +4404,8 @@ a:hover {
 .contact .info-item,
 .contact .form-wrapper,
 .certificates .certificate-card {
-  background: rgba(255, 253, 250, 0.94);
-  border: 1px solid #e7dccd;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid #dedad2;
   box-shadow: 0 18px 52px rgba(74, 69, 64, 0.1);
 }
 
@@ -4422,8 +4422,8 @@ a:hover {
 
 .hero .hero-image .image-wrapper .main-image {
   border-radius: 26px;
-  border: 12px solid #fffdfa;
-  box-shadow: 22px 22px 0 #e9ddcc, 0 24px 70px rgba(74, 69, 64, 0.18);
+  border: 12px solid #ffffff;
+  box-shadow: 22px 22px 0 #e2ded6, 0 24px 70px rgba(74, 69, 64, 0.16);
 }
 
 .hero .hero-image .image-wrapper .floating-card i,
@@ -4432,18 +4432,18 @@ a:hover {
 .contact .info-item .info-icon,
 .resume .education-skills .education-grid .certification-section .certifications .cert-item i,
 .certificates .certificate-content i {
-  background: #f1e7d8;
+  background: #eeece7;
   color: #242424;
 }
 
 .skills .skills-container .skill-category {
-  background: linear-gradient(145deg, #fffdfa 0%, #fbf5ec 100%);
-  border: 1px solid #e7dccd;
+  background: linear-gradient(145deg, #ffffff 0%, #faf9f6 100%);
+  border: 1px solid #dedad2;
   box-shadow: 0 18px 52px rgba(74, 69, 64, 0.1);
 }
 
 .skills .skills-container .skill-category .category-header {
-  border-bottom: 1px solid #ece2d5;
+  border-bottom: 1px solid #e4e0d8;
 }
 
 .skills .skills-container .skill-category .category-header .category-title,
@@ -4452,13 +4452,13 @@ a:hover {
 }
 
 .skills .skills-container .skill-category .skills-list .skill-row .skill-info .skill-percentage {
-  background: #f0e6d8;
+  background: #eeece7;
   color: #242424;
 }
 
 .skills .skills-container .skill-category .skills-list .skill-row .progress,
 .resume .professional-journey .experience-timeline::before {
-  background: #e5dacb;
+  background: #dedad2;
 }
 
 .skills .skills-container .skill-category .skills-list .skill-row .progress .progress-bar,
@@ -4470,12 +4470,12 @@ a:hover {
 }
 
 .resume .professional-journey .experience-timeline .timeline-item .timeline-dot {
-  border-color: #f8f3ea;
+  border-color: #f7f7f4;
 }
 
 .resume .professional-journey .experience-timeline .timeline-item .timeline-content .key-achievements .achievement-tag,
 .resume .education-skills .education-grid .education-card .education-details .honors .honor-badge {
-  background: #f1e7d8;
+  background: #eeece7;
   color: #38332f;
 }
 
@@ -4494,19 +4494,19 @@ a:hover {
 
 .portfolio .portfolio-image,
 .certificates .certificate-image {
-  background: #f1e7d8;
-  border-bottom: 1px solid #e7dccd;
+  background: #eeece7;
+  border-bottom: 1px solid #dedad2;
 }
 
 .portfolio .portfolio-image img,
 .certificates .certificate-image img {
-  background: #fffdfa;
+  background: #ffffff;
 }
 
 .portfolio .portfolio-image .action-btn {
-  background: #fffdfa;
+  background: #ffffff;
   color: #242424;
-  border: 1px solid #e2d7c7;
+  border: 1px solid #ddd9d1;
 }
 
 .portfolio .portfolio-image .action-btn:hover {
@@ -4530,16 +4530,16 @@ a:hover {
 .certificates .certificate-card:hover,
 .portfolio .portfolio-card:hover,
 .services .service-item:hover {
-  border-color: #d6c8b7;
+  border-color: #cbc6bd;
   box-shadow: 0 24px 65px rgba(74, 69, 64, 0.15);
 }
 
 .contact .form-wrapper .form-group input,
 .contact .form-wrapper .form-group select,
 .contact .form-wrapper .form-group textarea {
-  background: #fffdfa;
+  background: #ffffff;
   color: #242424;
-  border: 1px solid #dfd2c0;
+  border: 1px solid #d8d4cc;
 }
 
 .contact .form-wrapper .form-group input::placeholder,
@@ -4555,7 +4555,7 @@ a:hover {
 }
 
 .php-email-form .loading {
-  background: #fff6e8;
+  background: #f2f1ed;
   color: #4a4540;
 }
 
@@ -4574,7 +4574,7 @@ a:hover {
 }
 
 #preloader {
-  background: #f8f3ea;
+  background: #f7f7f4;
 }
 
 #preloader:before {
@@ -4582,11 +4582,11 @@ a:hover {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f3ece1;
+  background: #f1f0ec;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #c6b8a6;
+  background: #c2beb5;
 }
 
 ::-webkit-scrollbar-thumb:hover {
