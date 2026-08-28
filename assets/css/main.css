@@ -4601,3 +4601,282 @@ a:hover {
 .certificates .certificate-image img {
   filter: none;
 }
+
+/* Tightened spacing for a cleaner professional flow. */
+section,
+.section {
+  padding: 48px 0;
+}
+
+.section-title {
+  padding-bottom: 34px;
+}
+
+.section-title h2 {
+  margin-bottom: 14px;
+  padding-bottom: 16px;
+}
+
+.hero {
+  min-height: auto;
+  padding: 70px 0 56px;
+}
+
+.hero .container {
+  padding: 36px 15px;
+}
+
+.hero .hero-content h1 {
+  margin-bottom: 1.35rem;
+}
+
+.hero .hero-content .hero-description {
+  margin-bottom: 2rem;
+}
+
+.hero .hero-content .hero-actions {
+  margin-bottom: 2.5rem;
+}
+
+.hero .hero-content .hero-stats {
+  gap: 2rem;
+}
+
+.about {
+  padding-top: 64px;
+  padding-bottom: 56px;
+}
+
+.about .intro-header {
+  margin-bottom: 46px;
+}
+
+.about .main-content-wrapper {
+  margin-bottom: 56px;
+}
+
+.about .bottom-section {
+  margin-top: 22px;
+}
+
+.stats {
+  padding: 56px 0;
+}
+
+.stats .stats-grid {
+  gap: 46px;
+}
+
+.skills {
+  --section-spacing: 42px;
+  --category-spacing: 28px;
+  --skill-spacing: 18px;
+}
+
+.skills .skills-container {
+  padding-right: 24px;
+}
+
+.skills .skills-container .skill-category {
+  margin-bottom: 28px;
+  padding: 28px 30px 30px;
+}
+
+.skills .skills-container .skill-category .category-header {
+  margin-bottom: 22px;
+  padding-bottom: 16px;
+}
+
+.skills .skills-sidebar {
+  padding-left: 24px;
+}
+
+.skills .skills-sidebar .expertise-highlight {
+  padding: 30px 26px;
+  margin-bottom: 26px;
+}
+
+.skills .skills-sidebar .expertise-highlight .highlight-icon,
+.skills .skills-sidebar .expertise-highlight .highlight-title,
+.skills .skills-sidebar .expertise-highlight .experience-number {
+  margin-bottom: 16px;
+}
+
+.skills .skills-sidebar .technologies-section {
+  margin-bottom: 26px;
+}
+
+.skills .skills-sidebar .technologies-section .tech-title,
+.skills .skills-sidebar .achievements-section .achievements-title {
+  margin-bottom: 16px;
+}
+
+.resume .section-intro {
+  margin-bottom: 2rem;
+}
+
+.resume .professional-journey .experience-timeline .timeline-item {
+  margin-bottom: 2.2rem;
+}
+
+.resume .education-skills .education-grid .education-card {
+  padding: 1.6rem;
+  margin-bottom: 1.1rem;
+}
+
+.portfolio {
+  padding: 54px 0;
+}
+
+.portfolio .filters-wrapper {
+  margin-bottom: 34px;
+}
+
+.portfolio .portfolio-card {
+  margin-bottom: 10px;
+}
+
+.certificates {
+  padding: 54px 0;
+}
+
+.certificates .certificates-grid {
+  row-gap: 24px;
+}
+
+.services {
+  padding: 54px 0;
+}
+
+.services .service-item {
+  padding: 38px 32px;
+}
+
+.services .service-icon {
+  margin-bottom: 26px;
+}
+
+.services .service-content h3 {
+  margin-bottom: 14px;
+}
+
+.services .service-content p {
+  margin-bottom: 22px;
+}
+
+.contact {
+  padding: 56px 0 64px;
+}
+
+.contact .info-item {
+  margin-bottom: 42px;
+}
+
+.contact .info-item .info-icon {
+  margin-bottom: 22px;
+}
+
+.contact .contact-details .detail-item {
+  margin-bottom: 30px;
+}
+
+.contact .form-header {
+  margin-bottom: 30px;
+}
+
+.contact .form-wrapper .form-group {
+  margin-bottom: 22px;
+}
+
+@media (max-width: 992px) {
+  section,
+  .section {
+    padding: 42px 0;
+  }
+
+  .hero {
+    padding: 56px 0 46px;
+  }
+
+  .about,
+  .portfolio,
+  .certificates,
+  .services,
+  .contact {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .skills .skills-container {
+    padding-right: 0;
+    margin-bottom: 36px;
+  }
+
+  .skills .skills-sidebar {
+    padding-left: 0;
+  }
+
+  .services .row {
+    gap: 24px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  section,
+  .section {
+    padding: 36px 0;
+  }
+
+  .section-title {
+    padding-bottom: 28px;
+  }
+
+  .hero {
+    padding: 46px 0 36px;
+  }
+
+  .hero .container {
+    padding: 24px 15px;
+  }
+
+  .hero .hero-content {
+    margin-top: 1.5rem;
+  }
+
+  .hero .hero-content .hero-actions {
+    margin-bottom: 2rem;
+  }
+
+  .about .intro-header,
+  .about .main-content-wrapper {
+    margin-bottom: 36px;
+  }
+
+  .skills {
+    --section-spacing: 32px;
+    --category-spacing: 24px;
+  }
+
+  .skills .skills-container .skill-category {
+    padding: 24px 20px 26px;
+  }
+
+  .portfolio,
+  .certificates,
+  .services,
+  .contact {
+    padding: 40px 0;
+  }
+
+  .portfolio .filters-wrapper {
+    margin-bottom: 26px;
+  }
+
+  .services .service-item {
+    padding: 30px 24px;
+  }
+
+  .contact .info-item {
+    margin-bottom: 30px;
+  }
+}
