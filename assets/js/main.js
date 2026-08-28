@@ -12,14 +12,22 @@
   /**
    * Header toggle
    */
+  const header = document.querySelector('#header');
   const headerToggleBtn = document.querySelector('.header-toggle');
 
   function headerToggle() {
-    document.querySelector('#header').classList.toggle('header-show');
-    headerToggleBtn.classList.toggle('bi-list');
-    headerToggleBtn.classList.toggle('bi-x');
+    if (!header || !headerToggleBtn) return;
+
+    const isOpen = header.classList.toggle('header-show');
+    headerToggleBtn.classList.toggle('bi-list', !isOpen);
+    headerToggleBtn.classList.toggle('bi-x', isOpen);
+    headerToggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    headerToggleBtn.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
   }
-  headerToggleBtn.addEventListener('click', headerToggle);
+
+  if (headerToggleBtn) {
+    headerToggleBtn.addEventListener('click', headerToggle);
+  }
 
   /**
    * Hide mobile nav on same-page/hash links
