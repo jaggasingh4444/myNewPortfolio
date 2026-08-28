@@ -4193,3 +4193,411 @@ section,
     padding: 16px;
   }
 }
+
+/*--------------------------------------------------------------
+# Cream Professional Portfolio Theme
+--------------------------------------------------------------*/
+:root {
+  --background-color: #f8f3ea;
+  --default-color: #4a4540;
+  --heading-color: #171717;
+  --accent-color: #242424;
+  --surface-color: #fffdfa;
+  --contrast-color: #ffffff;
+}
+
+:root {
+  --nav-color: #5d5751;
+  --nav-hover-color: #171717;
+  --nav-mobile-background-color: #fffdfa;
+  --nav-dropdown-background-color: #fffdfa;
+  --nav-dropdown-color: #5d5751;
+  --nav-dropdown-hover-color: #171717;
+}
+
+.light-background {
+  --background-color: #f3ece1;
+  --surface-color: #fffdfa;
+}
+
+.dark-background {
+  --background-color: #fffdfa;
+  --default-color: #4a4540;
+  --heading-color: #171717;
+  --surface-color: #ffffff;
+  --contrast-color: #ffffff;
+}
+
+body,
+section,
+.section,
+.footer,
+.page-title {
+  background: var(--background-color);
+  color: var(--default-color);
+}
+
+body {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.72), rgba(248, 243, 234, 0.1) 38%),
+    #f8f3ea;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.section-title h2,
+.hero .hero-content h1,
+.hero .hero-content h1 .accent-text,
+.resume .professional-journey .experience-timeline .timeline-item .timeline-content h3,
+.portfolio .portfolio-title,
+.services .service-content h3 a,
+.contact .contact-details h3,
+.certificates .certificate-content {
+  color: #171717;
+}
+
+p,
+.section-title p,
+.hero .hero-content .hero-description,
+.about .intro-header .subtitle,
+.about .main-content-wrapper .profile-section .profile-meta .location span,
+.about .main-content-wrapper .profile-section .profile-meta .status span,
+.skills .skills-container .skill-category .category-header .category-subtitle,
+.portfolio .portfolio-description,
+.services .service-content p,
+.contact .contact-details p {
+  color: #5f5a55;
+}
+
+a {
+  color: #242424;
+}
+
+a:hover {
+  color: #6f6256;
+}
+
+.header {
+  background: rgba(255, 253, 250, 0.97);
+  border-right: 1px solid rgba(36, 36, 36, 0.08);
+  box-shadow: 20px 0 50px rgba(74, 69, 64, 0.08);
+  backdrop-filter: blur(18px);
+}
+
+@media (min-width: 1200px) {
+  .header {
+    border: 1px solid rgba(36, 36, 36, 0.1);
+    box-shadow: 0 22px 70px rgba(74, 69, 64, 0.12);
+  }
+}
+
+.header .logo h1,
+.footer h3 {
+  color: #171717;
+  font-weight: 500;
+}
+
+.header .profile-img img {
+  border-color: #efe5d6;
+  box-shadow: 0 18px 45px rgba(74, 69, 64, 0.14);
+}
+
+.navmenu a,
+.navmenu a:focus,
+.navmenu a .navicon,
+.navmenu a:focus .navicon {
+  color: #68625b;
+}
+
+.navmenu a:hover,
+.navmenu .active,
+.navmenu .active:focus,
+.navmenu a:hover .navicon,
+.navmenu .active .navicon,
+.navmenu .active:focus .navicon {
+  color: #171717;
+}
+
+.navmenu a .toggle-dropdown,
+.navmenu a:focus .toggle-dropdown,
+.header .social-links a,
+.footer .social-links a {
+  background: #f2eadf;
+  color: #37322e;
+  border: 1px solid #e2d7c7;
+}
+
+.header .social-links a:hover,
+.footer .social-links a:hover,
+.header .header-toggle,
+.navmenu .active .toggle-dropdown,
+.navmenu .active:focus .toggle-dropdown,
+.navmenu a .toggle-dropdown:hover,
+.navmenu a:focus .toggle-dropdown:hover,
+.scroll-top {
+  background: #242424;
+  color: #ffffff;
+}
+
+.header .header-toggle:hover,
+.scroll-top:hover {
+  background: #3a332d;
+  color: #ffffff;
+}
+
+.section-title h2::after,
+.hero .hero-content h1 .accent-text::after,
+.portfolio .portfolio-filters li::after {
+  background: #242424;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero .hero-content .hero-actions .btn-primary,
+.contact .form-wrapper .submit-btn,
+.about .bottom-section .action-buttons .btn-custom.primary {
+  background: #242424;
+  border-color: #242424;
+  color: #ffffff;
+  box-shadow: 0 16px 36px rgba(36, 36, 36, 0.16);
+}
+
+.hero .hero-content .hero-actions .btn-primary:hover,
+.contact .form-wrapper .submit-btn:hover,
+.about .bottom-section .action-buttons .btn-custom.primary:hover {
+  background: #3a332d;
+  border-color: #3a332d;
+  color: #ffffff;
+  box-shadow: 0 20px 42px rgba(36, 36, 36, 0.2);
+}
+
+.hero .hero-content .hero-actions .btn-secondary,
+.about .bottom-section .action-buttons .btn-custom.secondary {
+  color: #242424;
+  border-color: #242424;
+  background: rgba(255, 253, 250, 0.66);
+}
+
+.hero .hero-content .hero-actions .btn-secondary:hover,
+.about .bottom-section .action-buttons .btn-custom.secondary:hover {
+  background: #242424;
+  color: #ffffff;
+  border-color: #242424;
+}
+
+.hero .hero-content .hero-stats,
+.stats .achievement,
+.hero .hero-image .image-wrapper .floating-card,
+.skills .skills-sidebar .expertise-highlight,
+.skills .skills-sidebar .technologies-section .tech-stack .tech-item,
+.resume .education-skills .education-grid .education-card,
+.portfolio .portfolio-card,
+.services .service-item,
+.contact .info-item,
+.contact .form-wrapper,
+.certificates .certificate-card {
+  background: rgba(255, 253, 250, 0.94);
+  border: 1px solid #e7dccd;
+  box-shadow: 0 18px 52px rgba(74, 69, 64, 0.1);
+}
+
+.hero .hero-content .hero-stats .stat-item .stat-number,
+.stats .stat-item .stat-number,
+.skills .skills-sidebar .expertise-highlight .experience-number .purecounter,
+.portfolio .portfolio-meta .portfolio-category,
+.portfolio .portfolio-link,
+.services .read-more,
+.contact .contact-details .detail-item .detail-icon i,
+.contact .info-item .info-icon i {
+  color: #242424;
+}
+
+.hero .hero-image .image-wrapper .main-image {
+  border-radius: 26px;
+  border: 12px solid #fffdfa;
+  box-shadow: 22px 22px 0 #e9ddcc, 0 24px 70px rgba(74, 69, 64, 0.18);
+}
+
+.hero .hero-image .image-wrapper .floating-card i,
+.stats .achievement .achievement-icon,
+.services .service-icon,
+.contact .info-item .info-icon,
+.resume .education-skills .education-grid .certification-section .certifications .cert-item i,
+.certificates .certificate-content i {
+  background: #f1e7d8;
+  color: #242424;
+}
+
+.skills .skills-container .skill-category {
+  background: linear-gradient(145deg, #fffdfa 0%, #fbf5ec 100%);
+  border: 1px solid #e7dccd;
+  box-shadow: 0 18px 52px rgba(74, 69, 64, 0.1);
+}
+
+.skills .skills-container .skill-category .category-header {
+  border-bottom: 1px solid #ece2d5;
+}
+
+.skills .skills-container .skill-category .category-header .category-title,
+.skills .skills-container .skill-category .skills-list .skill-row .skill-info .skill-name {
+  color: #242424;
+}
+
+.skills .skills-container .skill-category .skills-list .skill-row .skill-info .skill-percentage {
+  background: #f0e6d8;
+  color: #242424;
+}
+
+.skills .skills-container .skill-category .skills-list .skill-row .progress,
+.resume .professional-journey .experience-timeline::before {
+  background: #e5dacb;
+}
+
+.skills .skills-container .skill-category .skills-list .skill-row .progress .progress-bar,
+.resume .professional-journey .experience-timeline .timeline-item .timeline-dot,
+.resume .education-skills .education-grid .education-card.primary::before,
+.services .service-item:hover .service-icon,
+.contact .info-item .info-icon {
+  background: #242424;
+}
+
+.resume .professional-journey .experience-timeline .timeline-item .timeline-dot {
+  border-color: #f8f3ea;
+}
+
+.resume .professional-journey .experience-timeline .timeline-item .timeline-content .key-achievements .achievement-tag,
+.resume .education-skills .education-grid .education-card .education-details .honors .honor-badge {
+  background: #f1e7d8;
+  color: #38332f;
+}
+
+.resume .professional-journey .experience-timeline .timeline-item .timeline-content .key-achievements a.achievement-tag:hover,
+.portfolio .portfolio-link:hover,
+.services .read-more:hover {
+  color: #6f6256;
+}
+
+.portfolio .portfolio-card,
+.certificates .certificate-card,
+.services .service-item {
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.portfolio .portfolio-image,
+.certificates .certificate-image {
+  background: #f1e7d8;
+  border-bottom: 1px solid #e7dccd;
+}
+
+.portfolio .portfolio-image img,
+.certificates .certificate-image img {
+  background: #fffdfa;
+}
+
+.portfolio .portfolio-image .action-btn {
+  background: #fffdfa;
+  color: #242424;
+  border: 1px solid #e2d7c7;
+}
+
+.portfolio .portfolio-image .action-btn:hover {
+  background: #242424;
+  color: #ffffff;
+}
+
+.portfolio .portfolio-filters li {
+  color: #6b655f;
+}
+
+.portfolio .portfolio-filters li:hover,
+.portfolio .portfolio-filters li.filter-active {
+  color: #171717;
+}
+
+.certificates .certificate-card {
+  color: #242424;
+}
+
+.certificates .certificate-card:hover,
+.portfolio .portfolio-card:hover,
+.services .service-item:hover {
+  border-color: #d6c8b7;
+  box-shadow: 0 24px 65px rgba(74, 69, 64, 0.15);
+}
+
+.contact .form-wrapper .form-group input,
+.contact .form-wrapper .form-group select,
+.contact .form-wrapper .form-group textarea {
+  background: #fffdfa;
+  color: #242424;
+  border: 1px solid #dfd2c0;
+}
+
+.contact .form-wrapper .form-group input::placeholder,
+.contact .form-wrapper .form-group textarea::placeholder {
+  color: #8b847c;
+}
+
+.contact .form-wrapper .form-group input:focus,
+.contact .form-wrapper .form-group select:focus,
+.contact .form-wrapper .form-group textarea:focus {
+  border-color: #242424;
+  box-shadow: 0 0 0 4px rgba(36, 36, 36, 0.1);
+}
+
+.php-email-form .loading {
+  background: #fff6e8;
+  color: #4a4540;
+}
+
+.php-email-form .loading:before {
+  border-color: #242424 transparent #242424 transparent;
+}
+
+.php-email-form .sent-message {
+  background: #198754;
+  color: #ffffff;
+}
+
+.php-email-form .error-message {
+  background: #b42318;
+  color: #ffffff;
+}
+
+#preloader {
+  background: #f8f3ea;
+}
+
+#preloader:before {
+  border-color: #242424 transparent #242424 transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3ece1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c6b8a6;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9d8d79;
+}
+
+.header .profile-img img,
+.about .profile-section .profile-image-container img,
+.about .profile-section .profile-image-container img:hover,
+.hero .hero-image .image-wrapper .main-image,
+.portfolio .portfolio-image img,
+.certificates .certificate-image img {
+  filter: none;
+}
