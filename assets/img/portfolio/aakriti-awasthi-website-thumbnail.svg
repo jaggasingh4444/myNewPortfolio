@@ -1,0 +1,36 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F7F4"/>
+      <stop offset="1" stop-color="#EFF4FA"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="130" y1="126" x2="1030" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9F1239"/>
+      <stop offset="1" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <filter id="shadow" x="58" y="58" width="1084" height="664" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="26" stdDeviation="34" flood-color="#4A4540" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" rx="34" fill="url(#bg)"/>
+  <circle cx="1010" cy="148" r="188" fill="#FFFFFF" fill-opacity="0.58"/>
+  <circle cx="174" cy="620" r="208" fill="#E7E0E8" fill-opacity="0.62"/>
+  <g filter="url(#shadow)">
+    <rect x="102" y="90" width="996" height="580" rx="34" fill="#FFFFFF"/>
+    <rect x="102" y="90" width="996" height="240" rx="34" fill="url(#brand)"/>
+    <text x="156" y="168" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">aakritiawasthi.com.np</text>
+    <text x="156" y="256" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800">Aakriti Awasthi</text>
+    <rect x="792" y="146" width="192" height="132" rx="24" fill="#FFFFFF" fill-opacity="0.16"/>
+    <circle cx="850" cy="208" r="34" fill="#FFFFFF" fill-opacity="0.82"/>
+    <rect x="904" y="184" width="52" height="14" rx="7" fill="#FFFFFF" fill-opacity="0.76"/>
+    <rect x="904" y="216" width="78" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.38"/>
+    <rect x="156" y="402" width="282" height="130" rx="24" fill="#F8F7F4" stroke="#DEDAD2"/>
+    <text x="188" y="452" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800">Profile</text>
+    <text x="188" y="492" fill="#68625B" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="500">Public introduction</text>
+    <rect x="478" y="402" width="282" height="130" rx="24" fill="#F8F7F4" stroke="#DEDAD2"/>
+    <text x="510" y="452" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800">Updates</text>
+    <text x="510" y="492" fill="#68625B" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="500">Structured content</text>
+    <rect x="800" y="402" width="188" height="130" rx="24" fill="#242424"/>
+    <text x="838" y="474" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Live Site</text>
+  </g>
+</svg>

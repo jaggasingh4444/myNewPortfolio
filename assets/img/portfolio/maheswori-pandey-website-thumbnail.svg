@@ -1,0 +1,38 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDF7F4"/>
+      <stop offset="1" stop-color="#ECEFF8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="198" y1="154" x2="1002" y2="612" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <filter id="shadow" x="56" y="54" width="1088" height="668" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="26" stdDeviation="34" flood-color="#4A4540" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" rx="34" fill="url(#bg)"/>
+  <circle cx="1032" cy="134" r="184" fill="#FFFFFF" fill-opacity="0.62"/>
+  <circle cx="164" cy="636" r="190" fill="#E4E1F4" fill-opacity="0.74"/>
+  <g filter="url(#shadow)">
+    <rect x="100" y="90" width="1000" height="580" rx="34" fill="#FFFFFF"/>
+    <rect x="100" y="90" width="1000" height="92" rx="34" fill="#242424"/>
+    <text x="146" y="147" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">mahesworipandey.com.np</text>
+    <rect x="748" y="124" width="76" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.25"/>
+    <rect x="850" y="124" width="76" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.25"/>
+    <rect x="952" y="124" width="76" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.25"/>
+    <rect x="146" y="244" width="420" height="272" rx="30" fill="url(#accent)"/>
+    <circle cx="246" cy="348" r="58" fill="#FFFFFF" fill-opacity="0.22"/>
+    <rect x="330" y="318" width="178" height="20" rx="10" fill="#FFFFFF" fill-opacity="0.75"/>
+    <rect x="330" y="360" width="138" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.34"/>
+    <rect x="186" y="446" width="322" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.18"/>
+    <text x="626" y="312" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="800">Maheswori</text>
+    <text x="626" y="370" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="800">Pandey</text>
+    <text x="626" y="426" fill="#68625B" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="500">Responsive Personal Website</text>
+    <rect x="626" y="482" width="182" height="54" rx="16" fill="#242424"/>
+    <text x="670" y="517" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">View Site</text>
+    <rect x="836" y="482" width="154" height="54" rx="16" fill="#F1F0EC" stroke="#DEDAD2"/>
+    <text x="879" y="517" fill="#242424" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Contact</text>
+  </g>
+</svg>

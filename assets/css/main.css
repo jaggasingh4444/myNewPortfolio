@@ -5255,6 +5255,31 @@ section,
   row-gap: 32px;
 }
 
+.portfolio .portfolio-filters {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.portfolio .portfolio-filters li {
+  padding: 9px 15px;
+  border-radius: 999px;
+  background: #ffffff;
+  border: 1px solid #dedad2;
+  box-shadow: 0 8px 22px rgba(74, 69, 64, 0.06);
+}
+
+.portfolio .portfolio-filters li::after {
+  display: none;
+}
+
+.portfolio .portfolio-filters li:hover,
+.portfolio .portfolio-filters li.filter-active {
+  background: #242424;
+  border-color: #242424;
+  color: #ffffff;
+}
+
 .portfolio .portfolio-card {
   padding: 14px;
   border-radius: 24px;
